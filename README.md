@@ -29,7 +29,7 @@ EXAMPLE TO USE
 
 ~~~
 
-** properties **
+**properties**
 
 -(void)setProperties:(NSArray <NSNumber*>*)properties;
 
@@ -38,13 +38,13 @@ Methode include properties for use controller
 - kEditorPropertyZoom - enable zoom
 - kEditorPropertyDragNDrop - enable drag&drop
 
-** select frame **
+**select frame**
 
 -(void)selectImage:(int)selectIndex;
 
 Method for select frame from outside
 
-** callbacks ** 
+**callbacks** 
  - *selectImage* - return index of selected cell
  - *dragNDropAction* - return fromIndex and toIndex
  - *deleteImages* - return array with indexes of selected cells
